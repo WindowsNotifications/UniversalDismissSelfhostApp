@@ -144,7 +144,7 @@ namespace UniversalDismissSelfhostApp.Helpers
 
         private static string GetRemoteId(DateTime timeToAppearAt)
         {
-            return timeToAppearAt.Ticks.ToString();
+            return (timeToAppearAt.Ticks / 10000000).ToString();
         }
     }
 }

@@ -24,7 +24,7 @@
                     Click="ButtonScheduleToastIn10Secs_Click"
                     Margin="0,12,0,0"/>
                 <TextBlock
-                    Text="This button will schedule a toast notification between 10 and 20 seconds from now (it'll schedule on an even 10-second interval). Click the button on the same time on your other device to ensure you get the same RemoteId generated."
+                    Text="This button will schedule a toast notification between 10 and 20 seconds from now (it'll schedule on an even 10-second interval). Click the button at the same time on your other device to ensure you get the same RemoteId generated."
                     Style="{ThemeResource CaptionTextBlockStyle}"/>
 
                 <TextBlock
